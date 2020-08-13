@@ -1,0 +1,6 @@
+{
+    "max_iterations":4,
+    "study_time":"20s",
+    "little_break_time": "2s",
+    "break_time": "5s"
+}
