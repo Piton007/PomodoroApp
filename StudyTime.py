@@ -21,7 +21,7 @@ class Pomodoro(object):
                 self.standard_break()
     def study(self):
         self.toaster.show_toast(self.title, "Comienza a estudiar :)", duration = 10, icon_path = "book.ico")
-        time.sleep(self.little_break_time)
+        time.sleep(self.study_time)
         self.iterations = self.iterations + 1
     def little_break(self):
         self.toaster.show_toast(self.title, "Es hora de relajarse un ratito", duration = 10, icon_path = "book.ico")
